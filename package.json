@@ -1,0 +1,18 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "\"use nodemailer to send mail to user\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R. O. Olatunji",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.5",
+    "nodemailer-express-handlebars": "^5.0.0"
+  }
+}
