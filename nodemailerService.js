@@ -35,8 +35,9 @@ let mailOptions ={
         name: 'Lanre', //name on handlebar
         company: 'ZinoBank' //company 
     },
-    subject: 'Node.js Test Mail',
-    text: 'welcome to nodemailer module, test how to send mail to user via nodemailer.'
+    subject: 'Node.js Test attachment',
+    //add atachment to the template
+    attachments: [{filename: 'pic2.PNG' , path: './attachments/pic2.PNG',}]
 }
 
 transporter.sendMail(mailOptions, (err, info)=>{
