@@ -11,8 +11,8 @@ const path = require('path')
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'lanretunji47@gmail.com',
-        pass: 'giveaway2020'
+        user: process.env.GOOGLE_USER,
+        pass: process.env.GOOGLE_PASS
     }
 })
 
